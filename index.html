@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Shots Counter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Shots Made: <span id="shots-count">0</span></h1>
+        <button class="main-buttons" id="increment" onclick="increment()">Increment</button>
+        <button class="main-buttons" id="decrement" onclick="decrement()">Decrement</button>
+        <button class="main-buttons" id="reset" onclick="reset()">Reset</button>
+        <button class="main-buttons" id="save" onclick="save()">Save</button> <!-- Do that it will enter the saves into an array too in the Javascript file for later on use-->
+        <h1 id="saves">Saves: </h1>
+        <button class="main-buttons" id="reset-saves" onclick="resetSaves()">Reset Saves</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

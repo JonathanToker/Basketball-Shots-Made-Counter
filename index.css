@@ -1,0 +1,54 @@
+body {
+    background-image: url(court.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    font-weight: bold;
+    align-items: center;
+    width:99%;
+    height:100%;
+}
+* {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 4em;
+}
+.main-container {
+    margin: auto;
+    background-color:white;
+    border: 3px solid black;
+    border-radius:10px;
+    max-width:60%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.main-buttons {
+    display: block;
+    width:100%;
+    max-width: 300px;
+    background-color: #101010; 
+    color:white;
+    border-radius: 5px;
+    height:3.5em;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+.main-buttons:hover {
+    cursor:pointer;
+    transform:scale(1.05);
+}
+#save {
+    background-color:green;
+}
+#reset {
+    background-color: rgb(94, 94, 250);
+}
+#increment {
+    background-color:rgb(254, 91, 91);
+}
+#reset-saves {
+    background-color:rgb(189, 189, 77);
+}
